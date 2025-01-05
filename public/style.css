@@ -1,0 +1,658 @@
+body {
+    background-color:#252327;
+    flex: 1;
+} 
+.alert{
+    position: fixed;
+  left: 0;
+  background-color: rgb(96, 98, 231);
+  
+  padding: 1rem;
+  top: 30%;
+  color: white;
+  font-family: "Poppins";
+
+}
+
+body p{
+    text-transform: capitalize;
+    font-family: "Poppins";
+    color: #ececec;
+} 
+
+.container{
+    max-width: 1100px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal img{
+    width: 70%;
+    object-fit: contain;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+body {
+    background-color:#131214;
+    flex: 1;
+} 
+
+
+.hidden{
+    display: none;
+}
+
+img{
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+form{
+    text-align: center;
+}
+
+button{
+    background-color: rgb(113, 0, 211);
+  border: none;
+  border-radius: 15px;
+  padding: 1%;
+  transition: all 0.3s ease;
+  font-family: 'Poppins';
+color: white;
+margin-top: 0.5rem;
+}
+button:hover{
+background-color: rgb(158, 158, 180);
+color: black;
+cursor: pointer;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+a{
+    font-family: 'Poppins';
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*######################################" haut de la page/logo #################################################"*/
+
+.input{
+    border-radius: 16px;
+  border: none;
+  padding: 4px;
+  margin-bottom:1rem;
+}
+
+
+.biglogo{
+    display: flex;
+    justify-content: center;
+}
+
+.biglogo{
+    margin-top: -10rem;
+    color: #ececec;
+}
+
+.biglogo h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14em;
+    cursor: default;
+}
+
+.etagere{
+    display: flex;
+    justify-content: center;
+    margin-top: -16rem;
+    text-shadow: 0 0 6px rgb(71, 54, 94);
+    text-shadow: 0 0 12px rgb(77, 53, 105);
+    text-shadow: 0 0 18px rgb(69, 33, 110);
+
+}
+
+.otre{
+    color: rgb(96, 98, 231);
+     font-size: 3em;
+
+
+     font-family: "Micro 5", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+
+}
+
+.v{
+    color: rgb(96, 98, 231);
+    font-size: 5em;
+    margin-top: 1.5rem;
+
+
+    font-family: "Micro 5", sans-serif;
+      font-weight: 300;
+    font-style: normal;
+}
+
+
+/*###################deco###########################*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style du menu déroulant */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ececec;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style des liens du menu */
+.dropdown-content a {
+    color: #252327;
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    padding: 8px 12px;
+}
+
+.dropdown-content a:hover {
+    background-color: #000000;
+} 
+
+/* Afficher le menu au survol */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*######################################" nav #################################################"*/
+
+
+
+.barrenav{
+    background-color: rgb(96, 98, 231);
+    padding-bottom: 1em;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: -2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+}
+
+
+.navpixshelf{
+    text-decoration: none;
+    color: #ececec;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5em;
+    margin-left: 2rem;
+    letter-spacing: 0.1em;
+}
+
+.navpixshelf:hover{
+    text-decoration: none;
+    color: #ececec;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.5em;
+    margin-left: 2rem;
+    letter-spacing: 0.1em;
+
+    text-shadow: 0 0 6px rgba(53, 39, 71, 0.473);
+    text-shadow: 0 0 12px rgba(46, 29, 65, 0.514);
+    text-shadow: 0 0 18px rgba(44, 16, 75, 0.486);
+}
+
+.navtitre{
+    text-decoration: none;
+    color: #ececec;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+}
+
+.navtitre a {
+    position: relative;
+}
+
+
+.navtitre a:hover{
+    text-decoration: none;
+    color: #ececec;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    text-shadow: 0 0 6px rgba(39, 25, 58, 0.514);
+    text-shadow: 0 0 12px rgba(24, 10, 41, 0.479);
+    text-shadow: 0 0 18px rgba(24, 6, 46, 0.507);
+}
+
+.navtitre a::after {
+    content: ''; 
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 0;
+    height: 2px;
+    background-color: #ececec; 
+    transition: width 0.3s ease; /* animation */
+}
+
+.navtitre a:hover::after {
+    width: 100%; 
+}
+
+.navalbum{
+    text-decoration: none;
+    color: #ececec;
+    margin-right: 2em;
+}
+.form_co{
+
+    background: rgb(126, 96, 231);
+  border-radius: 50px;
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+}
+.navconnexion{
+    text-decoration: none;
+    color: #ececec;
+    margin-right: 2em;
+
+}
+.clique{
+    color: rgb(113, 0, 211);
+}
+
+/*######################################" PLUS ###############################################################"*/
+
+.plus {
+    position: fixed;
+    bottom: 40px; 
+    right: 40px;
+    width: 60px; 
+    height: 60px; 
+    background-color: rgb(126, 96, 231);
+    border-radius: 50%; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.726); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 1000; /* reste au dessus des autres */
+    text-decoration: none;
+}
+
+
+/*######################################" accueil ###############################################################"*/
+
+.pres{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.pres h3{
+    font-size: larger;
+    margin: 2rem;
+    color: #ececec;
+    font-family: "Poppins";
+    font-weight: 200;
+}
+
+
+#content h2{
+    text-transform: capitalize;
+    font-family: "Bebas Neue", sans-serif;
+    color: #ececec;
+    margin: 1em;
+} 
+label{
+    font-family: "Poppins", sans-serif;
+    color: white;
+
+}
+
+#caroussel {
+    margin-left: 40px;
+    width: 500px;
+    overflow:hidden;    
+    margin: 0 auto;
+
+}
+.accueilpics img {
+    width: auto;
+    aspect-ratio: auto;
+    object-fit: initial;
+}
+
+.accueilpics {
+    margin-top: 3rem;
+    display :flex;
+    height: 400px;
+    animation-duration: 20s;
+    animation-name: accueildefilement;
+    animation-iteration-count: infinite;
+    justify-items: center;
+}
+
+@keyframes accueildefilement {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(-1300px);
+    }
+}
+
+.accueiltextpic h1{  
+    margin-left: 70px;
+    margin-top: -2rem;
+    position: relative;
+    padding-left: 620px;
+    color: #ececec;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.603);
+    font-family:'Bebas Neue', sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 0vw;
+}
+
+.accueiltextpic img{  
+    width: 10%;
+}
+/*######################################" photo ###############################################################"*/
+.tri{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carac_photo{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.photo{
+    width: 30%;
+}
+.toute_photo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.notation i {
+    color: gold;
+    font-size: 24px;
+    margin-right: 2px; /* Espacement entre les étoiles */
+}
+/*######################################" album ###############################################################"*/
+.album{
+    background-color: rgb(126, 96, 231);
+    border-radius: 30px;
+    text-align: center;
+}
+.album img{
+    width: 70%;
+}
+.boutons_album{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*######################################" dashboard ###############################################################"*/
+.photo_dashboard img:hover {
+    filter: brightness(50%); /* Filtre noir */
+}
+.photo_dashboard:hover .button {
+    display: block; /* Affiche le bouton au survol */
+}
+.photo_dashboard {
+    position: relative;
+}
+.button {
+    display: none; /* Masque le bouton par défaut */
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 2; /* Pour passer au-dessus de l'image */
+}
+/*######################################" footer ###############################################################"*/
+
+
+.footeraccueil{
+    background-color: rgb(126, 96, 231);
+    padding: 40px 0;
+    display: flex;    
+    justify-content: center;                              /* DMD A MIKE */
+    z-index: 3;
+    margin-top: 5em;
+}
+
+.footertxt{
+    font-family: "Poppins", sans-serif;
+    color: #ececec;
+    text-align: center;
+}
+.containercreation{
+    display: flex;
+    justify-content: center;
+    color: #ececec;
+}
+
+.containercreation h1, .containercreation option{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+.options option, .options select{
+    padding: 0.5em;
+    color: #252327;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15 px;
+}
+
+.containercreation main{
+    text-align: center ;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.label{
+    background-color: rgb(96, 98, 231);
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    color: #252327;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15 px;
+    transition: padding 0.3s ease, background-color 0.3s ease;
+}
+
+
+.label:hover{
+    background-color: rgb(158, 158, 180);
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    text-align: center;
+    border-radius: 20px;
+    border-color: #00000070 1px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15 px;
+    cursor: pointer;
+}
+
+
+.containercreation button{
+    background-color: rgb(96, 98, 231);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #252327;
+    text-align: center;
+    border-radius: 20px;
+    border-color: #00000070 1px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15 px;
+    transition: padding 0.3s ease, background-color 0.3s ease;
+}
+
+.containercreation button:hover{
+    background-color: rgb(158, 158, 180);
+    color: black;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    border-radius: 20px;
+    border-color: #00000070 1px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15 px;
+}
+
+.creerboutoncrea button{
+    margin-top: 15em;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+.creerboutoncrea button:hover{
+    background-color: rgb(158, 158, 180);
+    color: black;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+    border-radius: 40px;
+    border-color: #00000070 1px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 15 px;
+}
+
+
+.espace{
+    margin-top: 6em;
+}
+
+.espacetag{
+    margin-top: 8em;
+}
+
+.spacer{
+    height: 50px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+.spacer.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+select {
+    padding: 0.5em;
+    border: black;
+    border-radius: 20px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+
+/*######################################" account ###############################################################"*/
+
+
+
+/*######################################" footer ###############################################################"*/
+
+
+.footeraccueil{
+    background-color: rgb(126, 96, 231);
+    padding: 40px 0;
+    display: flex;    
+    justify-content: center;                              /* DMD A MIKE */
+    z-index: 3;
+    margin-top: 10em;
+}
+
+.footertxt{
+    font-family: "Poppins", sans-serif;
+    color: #ececec;
+    text-align: center;
+}
+
+.reseaux{
+    display: flex;
+    text-align: center;
+}
